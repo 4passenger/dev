@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sanjanakub
-        image: springbootapp:latest
+        image: sanjanakub.azurecr.io/springbootapp:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
