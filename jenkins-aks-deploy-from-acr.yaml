@@ -13,7 +13,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app
+      - name: sanjanakub
         image: aksjenkins.azurecr.io/aksjenkins:latest
         imagePullPolicy: Always
         ports:
