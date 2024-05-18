@@ -1,13 +1,6 @@
-package com.example;
-
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-
-public class MyClassTest {
-    @Test
-    public void testAdd() {
-        MyClass myClass = new MyClass();
-        int result = myClass.add(2, 3);
-        assertEquals(5, result);
+// Calculator.java
+public class Calculator {
+    public int add(int a, int b) {
+        return a + b;
     }
 }
